@@ -215,7 +215,7 @@ def _sarif_document(results: list[dict]) -> dict:
                         _sarif_result(rule["id"], f"{f['target']}: {f['message']}", uri))
 
     return {
-        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        https://docs.oasis-open.org/sarif/sarif/v2.1.0/errata01/os/schemas/sarif-schema-2.1.0.json
         "version": "2.1.0",
         "runs": [
             {
